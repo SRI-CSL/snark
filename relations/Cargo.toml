@@ -13,13 +13,13 @@ license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
-ark-ff = { git = "https://github.com/arkworks-rs/algebra", default-features = false }
-ark-std = { git = "https://github.com/arkworks-rs/utils", default-features = false }
+ark-ff = { git = "https://github.com/SRI-CSL/algebra", default-features = false }
+ark-std = { git = "https://github.com/SRI-CSL/utils", default-features = false }
 tracing = { version = "0.1", default-features = false }
 tracing-subscriber = { version = "0.2", default-features = false, optional = true }
 
 [dev-dependencies]
-ark-test-curves = { git = "https://github.com/arkworks-rs/algebra", default-features = false, features = [ "bls12_381_scalar_field" ] }
+ark-test-curves = { git = "https://github.com/SRI-CSL/algebra", default-features = false, features = [ "bls12_381_scalar_field" ] }
 
 [features]
 default = []
